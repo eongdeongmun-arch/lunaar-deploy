@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: lunaar
-    env: node
-    buildCommand: "npm install"
-    startCommand: "node index.js"
-    region: oregon
-    plan: free
